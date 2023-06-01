@@ -79,3 +79,51 @@ console.log(martynas);
 const martyns = `Sveiki, mano vardas ${name}, man yra ${age} metai ir man labai patinka ${ilike1}, ${ilike2} ir ${ilike3}!`;
 console.log(martyns);
 
+console.clear();
+
+// 2 * 1 = 2
+// 2 * 2 = 4
+// 2 * 3 = 6
+// 2 * 4 = 8
+// 2 * 5 = 10
+// 2 * 6 = 12
+// 2 * 7 = 14
+// 2 * 8 = 16
+// 2 * 9 = 18
+// 2 * 10 = 20
+
+const kintamas = 2
+const a1 = 1;
+const a2 = 2;
+const a3 = 3;
+const a4 = 4;
+const a5 = 5;
+const a6 = 6;
+const a7 = 7;
+const a8 = 8;
+const a9 = 9;
+const a10 = 10;
+
+const lentele1 = kintamas  + ' * ' + a1 + ' = ' + (kintamas * a1) + '\r\n'  
++ kintamas  + ' * ' + a2 + ' = ' + (kintamas * a2) + '\r\n'
++ kintamas  + ' * ' + a3 + ' = ' + (kintamas * a3) + '\r\n'
++ kintamas  + ' * ' + a4 + ' = ' + (kintamas * a4) + '\r\n'
++ kintamas  + ' * ' + a5 + ' = ' + (kintamas * a5) + '\r\n'
++ kintamas  + ' * ' + a6 + ' = ' + (kintamas * a7) + '\r\n'
++ kintamas  + ' * ' + a7 + ' = ' + (kintamas * a7) + '\r\n'
++ kintamas  + ' * ' + a8 + ' = ' + (kintamas * a8) + '\r\n'
++ kintamas  + ' * ' + a9 + ' = ' + (kintamas * a9) + '\r\n'
++ kintamas  + ' * ' + a10 + ' = ' + (kintamas * a10) + '\r\n'
+console.log(lentele1);
+
+const lentele2 = `${kintamas} * ${a1} = ${kintamas*a1}
+${kintamas} * ${a2} = ${kintamas*a2}
+${kintamas} * ${a3} = ${kintamas*a3}
+${kintamas} * ${a4} = ${kintamas*a4}
+${kintamas} * ${a5} = ${kintamas*a5}
+${kintamas} * ${a6} = ${kintamas*a6}
+${kintamas} * ${a7} = ${kintamas*a7}
+${kintamas} * ${a8} = ${kintamas*a8}
+${kintamas} * ${a9} = ${kintamas*a9}
+${kintamas} * ${a10} = ${kintamas*a10}`;
+console.log(lentele2);
