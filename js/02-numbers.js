@@ -1,7 +1,7 @@
 console.clear();
 
 /*
-NUMBERS
+NUMBERS - skaiciai
 Sveikieji/desimtainiai
 Teigiami/neigiami
 Mistiniai: Begalybes ir NAN (not-a-number)
