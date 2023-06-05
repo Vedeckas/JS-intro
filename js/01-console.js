@@ -4,11 +4,23 @@ console.log(1);
 console.log(7);
 console.log(1,4,5);
 
-// Single-line comment
+// Single-line comment: ctrl + /
 
-/*Single-line as multi-line comment*/
+// Multi-line
+// as
+// single-line
+// comment
+
+/* Single-line as multi-line comment */
 
 /*Single-line 
 as 
 multi-line 
 comment*/
+
+/*
+    Single-line 
+    as 
+    multi-line 
+    comment
+*/
