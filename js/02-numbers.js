@@ -1,5 +1,3 @@
-console.clear();
-
 /*
 NUMBERS - skaiciai
 Sveikieji/desimtainiai

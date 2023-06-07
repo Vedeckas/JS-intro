@@ -138,8 +138,11 @@ console.clear();
 
 const vards = `Jim`;
 const vards2 = `Carrey`;
-const vardziuks = `${vards[0]}.${vards2[0]}`;
-console.log(vardziuks);
+if (vards.length < vards2.length){
+    console.log(vards);
+    } else {
+    console.log(vards2)
+}
 
 /*2. Sukurkite 4 kintamuosius, kurie saugotų jūsų vardą, pavardę, gimimo metus ir šiuos metus (nebūtinai tikrus). 
 Parašykite kodą, kuris pagal gimimo metus paskaičiuotų jūsų amžių ir 
