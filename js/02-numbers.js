@@ -34,7 +34,7 @@ console.log(NaN);
 // console.log(1);
 
 console.log(2 + 3);
-console.log(0.1+0.2, 0.3);
+console.log(0.1 + 0.2, 0.3);
 
 
 // KINTAMIEJI
@@ -60,11 +60,6 @@ console.log(pinigine);
 
 console.clear();
 
-let index = 0;
-console.log(index);
-
-console.clear();
-
 let driezas = 1;
 console.log(driezas);
 
@@ -74,11 +69,16 @@ console.log(driezas);
 driezas += 6;
 console.log(driezas);
 
+// let x = 5;
+// x = 5 * (x - 3);
+// console.log(x);
+
 // x = 5 * (x - 3);
 // x = 5 * (5 - 3);
 // x = 5 * (2);
 // x = 5 * 2;
 // x = 10;
+
 console.clear();
 
 let x = 1;
@@ -109,6 +109,7 @@ console.log(m);
 console.log(++m);
 
 console.clear();
+
 const a = 8;
 const b = 9;
 const c = 10;

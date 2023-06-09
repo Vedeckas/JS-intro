@@ -65,7 +65,8 @@ console.log(labas);
 // \t - tab
 
 // Sveiki, mano vardas [VARDAS], man yra [METAI] metai ir man labai patinka [KAS PATINKA], [KAS PATINKA] ir [KAS PATINKA]!
-console.clear();
+
+// console.clear();
 
 const name = 'Martynas';
 const age = '99';
@@ -79,7 +80,7 @@ console.log(martynas);
 const martyns = `Sveiki, mano vardas ${name}, man yra ${age} metai ir man labai patinka ${ilike1}, ${ilike2} ir ${ilike3}!`;
 console.log(martyns);
 
-console.clear();
+// console.clear();
 
 // 2 * 1 = 2
 // 2 * 2 = 4
