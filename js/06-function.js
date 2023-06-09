@@ -8,7 +8,7 @@ const a2 = 2;
 const a3 = 8;
 const a4 = 4;
 const a5 = 6;
-const aVidurkis = (a1 + a2 + a3 +a4+ a5) / 5;
+const aVidurkis = (a1 + a2 + a3 + a4 + a5) / 5;
 console.log('a:', aVidurkis);
 
 /*console.clear();

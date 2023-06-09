@@ -46,16 +46,16 @@ console.clear();
 
 // Kintamieji: konstantos ir kintamieji
 
-let pinigine = 0
+let pinigine = 0;
 console.log(pinigine);
 
-pinigine = 5
+pinigine = 5;
 console.log(pinigine);
 
-pinigine = 3+4
+pinigine = 3 + 4;
 console.log(pinigine);
 
-pinigine = pinigine + 5
+pinigine = pinigine + 5;
 console.log(pinigine);
 
 console.clear();

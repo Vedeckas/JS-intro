@@ -127,3 +127,7 @@ const masyvas2 = [1, 2, 2, 3];
 const masyvas3 = [5, 4, 3, 2, 1];
 const masyvas4 = [5, 4, 3, 2, 1, 1, 1, 1, 1, 2, 2, 3];
 
+for (let i = 0){
+    if (){
+    }
+    }
