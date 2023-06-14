@@ -5,6 +5,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "arrow":"nodemon ./js/13-arrow.js",
+    "array-method":"nodemon ./js/12-array-method.js",
+    "object":"nodemon ./js/object.js",
+    "letters":"nodemon ./mini/letters.js",
     "biggestNumber":"nodemon ./mini/biggestNumber.js",
     "numberLength":"nodemon ./mini/numberLength.js",
     "typeof":"nodemon ./js/10-typeof.js",
