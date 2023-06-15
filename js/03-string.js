@@ -6,6 +6,9 @@ STRING - tekstiniu simboliu grandinele, aka tekstas
 Inicijavimo budai:
 - viengubos kabutes ('')
 - dvigubos kabutes ("")
+
+Ilgis:
+'stringas'.length
 */
 
 const vardas = 'Jonas';
@@ -74,7 +77,7 @@ const ilike1 = 'masinos';
 const ilike2 = 'gamta';
 const ilike3 = 'oro balionai';
 
-const martynas = "Sveiki, mano vardas " + name + ", man yra " + age + " metai ir man labai patinka " + ilike1 + "," + ilike2 + " ir " + ilike3 + "!";
+const martynas = "Sveiki, mano vardas " + name + ", man yra " + age + " metai ir man labai patinka " + ilike1 + ", " + ilike2 + " ir " + ilike3 + "!";
 console.log(martynas);
 
 const martyns = `Sveiki, mano vardas ${name}, man yra ${age} metai ir man labai patinka ${ilike1}, ${ilike2} ir ${ilike3}!`;
@@ -128,4 +131,48 @@ ${kintamas} * ${a8} = ${kintamas*a8}
 ${kintamas} * ${a9} = ${kintamas*a9}
 ${kintamas} * ${a10} = ${kintamas*a10}`;
 console.log(lentele2);
+
+console.clear();
+
+const multiplier = 3;
+let number = 0;
+
+// const m1 = multiplier * n1;
+// const m2 = multiplier * n2;
+
+const lentele3 = `
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}`;
+console.log(lentele3);
+
+let sum = 0;
+let index = 0;
+
+const lentele4 = `
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}
+${multiplier} * ${++index} = ${sum += multiplier}`;
+
+console.log(lentele4);
+
+const str = 'Opliaopliaoplia';
+console.log(str, 15, '>>>', str.length);
+
+const raide = str[0];
+console.log(raide, 'O');
 
