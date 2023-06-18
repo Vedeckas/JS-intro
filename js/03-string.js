@@ -119,6 +119,7 @@ const lentele1 = kintamas  + ' * ' + a1 + ' = ' + (kintamas * a1) + '\r\n'
 + kintamas  + ' * ' + a9 + ' = ' + (kintamas * a9) + '\r\n'
 + kintamas  + ' * ' + a10 + ' = ' + (kintamas * a10) + '\r\n'
 console.log(lentele1);
+export default lentele1;
 
 const lentele2 = `${kintamas} * ${a1} = ${kintamas*a1}
 ${kintamas} * ${a2} = ${kintamas*a2}
