@@ -176,3 +176,11 @@ console.log(str, 15, '>>>', str.length);
 const raide = str[0];
 console.log(raide, 'O');
 
+let strIndex = 0;
+console.log(str[++strIndex]);
+console.log(str[++strIndex]);
+
+const userFirstName = 'Chuck';
+const userLastName = 'Norris';
+const userAbbr = `${userFirstName[0]}. ${userLastName[0]}.`;
+console.log(userAbbr);
